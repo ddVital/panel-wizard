@@ -1,0 +1,8 @@
+{
+  "name": "panel-wizard",
+  "description": "fully customizable topbar",
+  "uuid": "panel-wizard@ddvital.gmail.com",
+  "shell-version": ["40", "41", "42", "43", "44"],
+  "settings-schema": "org.gnome.shell.extensions.topbar-menus",
+  "url": "https://github.com/ddvital/panel-wizard"
+}

@@ -1,0 +1,83 @@
+/* Add smooth transition for opacity changes */
+#panel {
+    transition-duration: 200ms;
+    transition-property: background-color;
+}
+
+/* Reduce padding/margins in the panel */
+.panel-button {
+    -natural-hpadding: 6px;
+    -minimum-hpadding: 4px;
+    padding: 2px 0;
+    /* background: red; */
+}
+
+/* Specifically target the status area */
+#panel .panel-status-indicators-box,
+#panel .panel-status-menu-box {
+    spacing: 0px;
+    margin: 0;
+    gap: 0;
+    padding: 0px;
+}
+
+/* Quick settings and notification area spacing */
+.status-menu-aggregate {
+    spacing: 0px;
+    margin: 0;
+    gap: 0;
+    padding: auto 0;
+}
+
+#panel .panel-status-indicators-box,
+#panel .panel-status-menu-box {
+    /* background-color: red; */
+  spacing: 0px;
+  margin: 0;
+  gap: 0;
+} 
+
+#panel .panel-button .app-menu-icon {
+    -st-icon-style: symbolic;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#panel .panel-button .system-status-icon {
+    icon-size: 1.02em;
+    padding: 0 8px;
+}
+
+.clock-display-box {
+    /* background-color: greenyellow; */
+    padding: 0px;
+    margin: 0px;
+    spacing: 0;
+    gap: 0;
+}
+
+#panelLeft {
+    margin-left: 24px;
+}
+
+#panel .panel-button.clock-display {
+    box-shadow: none; 
+    margin: 0;
+    padding: 0;
+    margin-right: 24px;
+}
+#panel .panel-button.clock-display .clock {
+    padding: 0;
+}
+
+.panel-button-text {
+    margin: 0 8px;
+}
+
+.popup-menu-item {
+    /* spacing: 12px; */
+}
+
+.popup-menu-item:active {
+    background-color: rgba(238, 238, 238, 0.1);
+}

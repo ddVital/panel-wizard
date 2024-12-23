@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.topbar-menus" path="/org/gnome/shell/extensions/topbar-menus/">
+    <key name="show-file" type="b">
+      <default>true</default>
+      <summary>Show File menu</summary>
+    </key>
+    <key name="show-edit" type="b">
+      <default>true</default>
+      <summary>Show Edit menu</summary>
+    </key>
+    <key name="show-view" type="b">
+      <default>true</default>
+      <summary>Show View menu</summary>
+    </key>
+    <key name="show-window" type="b">
+      <default>true</default>
+      <summary>Show Window menu</summary>
+    </key>
+    <key name="show-help" type="b">
+      <default>true</default>
+      <summary>Show Help menu</summary>
+    </key>
+  </schema>
+</schemalist>
